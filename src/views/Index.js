@@ -31,7 +31,7 @@ import SectionNavbars from "views/index-sections/SectionNavbars.js";
 import SectionNavigation from "views/index-sections/SectionNavigation.js";
 import SectionProgress from "views/index-sections/SectionProgress.js";
 import SectionNotifications from "views/index-sections/SectionNotifications.js";
-import SectionTypography from "views/index-sections/SectionTypography.js";
+import Page_1 from "views/examples/Page_1";
 import SectionJavaScript from "views/index-sections/SectionJavaScript.js";
 import SectionCarousel from "views/index-sections/SectionCarousel.js";
 import SectionNucleoIcons from "views/index-sections/SectionNucleoIcons.js";
@@ -50,23 +50,22 @@ function Index() {
   });
   return (
     <>
-      <IndexNavbar />
       <IndexHeader />
       <div className="main">
-        <SectionButtons />
+        {/*<SectionButtons />
         <SectionNavbars />
         <SectionNavigation />
         <SectionProgress />
-        <SectionNotifications />
-        <SectionTypography />
-        <SectionJavaScript />
+        <SectionNotifications />*/}
+        <Page_1 />
+        {/*<SectionJavaScript />
         <SectionCarousel />
         <SectionNucleoIcons />
         <SectionDark />
         <SectionLogin />
         <SectionExamples />
         <SectionDownload />
-        <DemoFooter />
+        <DemoFooter />*/}
       </div>
     </>
   );
