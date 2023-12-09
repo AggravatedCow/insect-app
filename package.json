@@ -1,6 +1,6 @@
 {
-  "homepage": "https://AggravatedCow.github.io/insect-app-2",
-  "name": "insect-app-2",
+  "homepage": "https://AggravatedCow.github.io/insect-app",
+  "name": "insect-app",
   "version": "1.3.2",
   "dependencies": {
     "classnames": "2.3.2",
